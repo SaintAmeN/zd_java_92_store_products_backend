@@ -1,4 +1,4 @@
-package com.sda.j92.carrentalbackend.model;
+package com.sda.j92.productbackend.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,13 +13,14 @@ import javax.persistence.Id;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class CarRentalOffer {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String make;
-    private String model;
-    private CarBodyType type;
-    private double economy;
+    private String name;
+    private String description;
+    private ProductState state;
+    private ProductType type;
     private double price;
+    private int quantity;
 }

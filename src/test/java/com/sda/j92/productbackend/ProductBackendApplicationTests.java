@@ -1,10 +1,10 @@
-package com.sda.j92.carrentalbackend;
+package com.sda.j92.productbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CarRentalBackendApplicationTests {
+class ProductBackendApplicationTests {
 
     @Test
     void contextLoads() {

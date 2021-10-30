@@ -1,13 +1,13 @@
-package com.sda.j92.carrentalbackend;
+package com.sda.j92.productbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarRentalBackendApplication {
+public class ProductBackendApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CarRentalBackendApplication.class, args);
+        SpringApplication.run(ProductBackendApplication.class, args);
     }
 
 }
